@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <title>shootings visualization</title>
+  </head>
+  <body>
+    <svg class="chart"></svg>
+    <script type="text/javascript">
+
+// d3 code here!
+d3.csvParse("shootings2014to2016.csv", function(data) {
+  console.log(data[0]);
+});
+
+console.log("Hello, World!")
+
+    </script>
+
+  </body>
+</html>
